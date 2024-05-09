@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: F2. Game Over
+  m_EditorClassIdentifier: 
+  storyText: 'Before you could fall to the floor, you feel something pierce your
+    chest. You can feel it moving where your heart should be, wriggling, squirming.
+    You can feel a burning pain moving outward through your body as if your organs
+    are being eaten alive. It finally lets you go. The burning sensation doesn''t
+    stop as you are falling until you cannot feel anything. The sensation reaches
+    your brain as parts of your body go from being in excruciating pain to completely
+    numb. You no longer hear, see or feel anything and you only have one thought
+    remaining in your head before your brain gets consumed:
+
+    You are dead.
+
+    Try
+    again?
+
+    1. Start over from the beginning.
+
+    2. Exit'
+  nextStates:
+  - {fileID: 11400000, guid: e2f781fd1b18bc44d8e32d6b9d786aaf, type: 2}
+  - {fileID: 11400000, guid: 9d869a8aee6f323478a46b58490c78c5, type: 2}
+  subStateFlag: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A15. Run
+  m_EditorClassIdentifier: 
+  storyText: "Just as you take the door back out to the corridor, you hear a loud
+    bang back from where you came; the creature broke through the generator room's
+    door. You run over to the automatic door but strangely you don't hear the creature
+    chase after you. The door opens to another hallway going perpendicular to the
+    one you were just in, with a large, transparent  glass window allowing you to
+    look out into space. A hole in the floor is in your way and just beyond it on
+    a wall is a sign:\"Escape pods\" and an arrow point to another door at the end
+    of the hallway.\r\nWhat do you do?\r\n1. Run and leap over the hole to reach the
+    other side.\r\n2. Skirt around the hole carefully but quickly."
+  nextStates:
+  - {fileID: 11400000, guid: 765b1d3c544ba7d46bc3e67b561e4948, type: 2}
+  - {fileID: 11400000, guid: 765b1d3c544ba7d46bc3e67b561e4948, type: 2}
+  subStateFlag: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A5. Descend
+  m_EditorClassIdentifier: 
+  storyText: "The other door was simple enough to open manually without too much effort.
+    You enter a vertical room with a descending staircase. You start approaching the
+    railing when you catch something with the corner of your eye even in this dark
+    room.\r\n\r\nA corpse. A decidedly alien one at that, though still humanoid. The
+    body is tall and lanky with small,glossy eyes. A small cavity is visible in its
+    torso, possibly where the heart is, with blood inside and around it.\r\n\r\nWhat
+    do you do?\r\n\r\n1. Descend down the stairs in the dark.\r\n\r\n2. Search the
+    corpse."
+  nextStates:
+  - {fileID: 11400000, guid: 0a778137a938faf4f9ee9503eee58ad1, type: 2}
+  - {fileID: 11400000, guid: 5469e77db6d1ecf468c80e86c6af1b7e, type: 2}
+  subStateFlag: 0

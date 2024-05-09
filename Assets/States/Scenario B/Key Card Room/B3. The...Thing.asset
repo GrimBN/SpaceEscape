@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B3. The...Thing
+  m_EditorClassIdentifier: 
+  storyText: "You enter the door and see...something. A creature? It appears to have
+    several limbs, almost too many. Or are they tentacles? You hide behind the wall
+    as it starts turning. Did it see you? Did it even have eyes? You saw some hollow
+    spaces? Perhaps it caught your scent? ...Or the scent of that corpse on your body.
+    The creature looked big but you feel like it is bigger. Was it hunched? It blended
+    in almost perfectly in the dark. It seems to be making a continuous, deep, clicking
+    sound. The sound is hardly audible, but you can feel its unsettling vibrations
+    in the core of your body much more noticeably. \r\nWhat do you do?\r\n1. Move
+    in to get a better look.\r\n2. Sneak around and try to find something useful."
+  nextStates:
+  - {fileID: 11400000, guid: f01e23134e4947a43883d0d3c7f022c7, type: 2}
+  - {fileID: 11400000, guid: c6842b3645f3861479f8d7db12a4d3f9, type: 2}
+  subStateFlag: 0

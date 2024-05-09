@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B11. Berserk
+  m_EditorClassIdentifier: 
+  storyText: "You turn the generator on and it roars to life. Unfortunately, so does
+    the creature. It goes berserk and starts rampaging around the room, slashing and
+    ramming everything in its vicinity in order to find you. You see a sliver of opportunity
+    when it is in a far corner of the room to quickly leave.\r\nWhat do you do?\r\n1.
+    Make a break for the door and escape.\r\n2. Make a break for the hole and climb
+    in."
+  nextStates:
+  - {fileID: 11400000, guid: 65fa506a5123203439194420d9cd9a81, type: 2}
+  - {fileID: 11400000, guid: 65fa506a5123203439194420d9cd9a81, type: 2}
+  subStateFlag: 0

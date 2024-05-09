@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B9. In the Generator Room B
+  m_EditorClassIdentifier: 
+  storyText: "You use the card on the generator room door and it opens smoothly. The
+    creature's loud footstep sounds permeate through the ceiling and echo in the room.
+    You look around and notice that the main generator is not on. You also notice
+    a rather large hole in the ceiling. Did the creature make this?\r\nWhat do you
+    do?\r\n1. Find a way to turn the generator on.\r\n2. Investigate the hole."
+  nextStates:
+  - {fileID: 11400000, guid: 114dcfa0172c1b14399ffb3bac9e8149, type: 2}
+  - {fileID: 11400000, guid: 5c423438236e23640becbf50280d2bae, type: 2}
+  subStateFlag: 0

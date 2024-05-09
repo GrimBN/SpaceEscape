@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A7. Down in the dark
+  m_EditorClassIdentifier: 
+  storyText: "You reach a different floor with a door that leads out but the stairs
+    go further down still. You try to ignore the corpse on the floor above you as
+    best as you can.\r\n\r\nWhat do you do?\r\n\r\n1. Take the stairs down again.\r\n\r\n2.
+    Enter the door."
+  nextStates:
+  - {fileID: 11400000, guid: 0767e483c453b384db52010f7294dde1, type: 2}
+  - {fileID: 11400000, guid: 5771e7834491f5546bffe626cb9665e2, type: 2}
+  subStateFlag: 0

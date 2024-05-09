@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A13.2. Power On A
+  m_EditorClassIdentifier: 
+  storyText: "It appears to have several limbs, almost too many. Or are they tentacles?
+    It hasn't yet seen you. Can it see you? Did it even have eyes? You saw some hollow
+    spaces? The creature looked big but you feel like it is bigger. Was it hunched?
+    It seems to be making a continuous, deep, clicking sound. The sound is hardly
+    audible, but you can feel its unsettling vibrations in the core of your body much
+    more noticeably. It saunters its way to the door you entered from and stays there
+    as if scrutinizing it. You notice a hole in the ceiling where the creature jumped
+    down from. \r\nWhat do you do?\r\n1. Wait for the creature to move away and exit
+    through the door.\r\n2. Climb into the hole quietly."
+  nextStates:
+  - {fileID: 11400000, guid: d602713d991c8714ea49f6b6a5b19b0a, type: 2}
+  - {fileID: 11400000, guid: 55f919459e9f04a4e98b948042f22a13, type: 2}
+  subStateFlag: 0

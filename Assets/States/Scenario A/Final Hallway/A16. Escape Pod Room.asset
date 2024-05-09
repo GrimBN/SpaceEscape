@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A16. Escape Pod Room
+  m_EditorClassIdentifier: 
+  storyText: "You successfully reach the other side of the hole and successively the
+    escape pod room door. The door opens automatically to only one escape pod remaining.
+    You hurry to open the door to the pod when suddenly the creature leaps up from
+    the hole in the corridor behind you and charges towards you. Right as you open
+    the pod door, the creature makes another giant leap towards you in order to catch
+    you.\r\nWhat do you do?\r\n1. Climb into the pod!\r\n2. Dodge to the side!"
+  nextStates:
+  - {fileID: 11400000, guid: 44fd91b8e020aba4196e1179518017e0, type: 2}
+  - {fileID: 11400000, guid: 2e827e70987fbe940bd9359cc80e234f, type: 2}
+  subStateFlag: 0

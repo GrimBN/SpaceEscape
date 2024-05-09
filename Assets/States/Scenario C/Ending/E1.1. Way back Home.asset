@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: E1.1. Way back Home
+  m_EditorClassIdentifier: 
+  storyText: You try to open the door to the remaining pod but it requires a key card
+    access. You quickly shove the key card in the slot, open the door and climb in,
+    narrowly avoiding the creature's appendage attempting to grab you. You turn on
+    the escape sequence and jettison out of the space station. As you look behind,
+    you notice the station being destroyed and in pieces. With the parts of the station
+    floating about like the motionless stars, you wonder how you are going to find
+    you way back home.
+  nextStates:
+  - {fileID: 11400000, guid: f166c4f6ab4cb734aa7b171e91736751, type: 2}
+  subStateFlag: 1

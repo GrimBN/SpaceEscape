@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A13.1. Power On A
+  m_EditorClassIdentifier: 
+  storyText: You feel your way around the generator for a while and end up on what
+    looks to be a terminal of sorts. It requires a key-card access which you provide.
+    You are able to navigate the terminal and turn on the generator, restoring power
+    to the station. But right as you do this, a loud thud is heard on the other side
+    of the room, beyond the generator from where you are standing. Heavy footstep
+    sounds soon follow accompanied by what sounds like a claw scraping across the
+    metal floor. You try to get a peek at it, but even with the lights now on, the
+    thing is darker than the pitch black of space.
+  nextStates:
+  - {fileID: 11400000, guid: ecad4e4742cf5b346bd4587b17fb2fb0, type: 2}
+  subStateFlag: 1

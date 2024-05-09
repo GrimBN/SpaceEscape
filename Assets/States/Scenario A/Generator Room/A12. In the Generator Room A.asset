@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A12. In the Generator Room A
+  m_EditorClassIdentifier: 
+  storyText: "The door opens easily with the help of the key-card allowing you access
+    to the generator. The room is dark and you cannot see much of anything. You search
+    around as best as you can and reach the generator. \r\nWhat do you do?\r\n1. Stay
+    close to the generator and try to find a way to turn it on.\r\n2. Move away from
+    the generator and try to find a light source."
+  nextStates:
+  - {fileID: 11400000, guid: 9360ecc3d0b6b2e419c03c022d9158b5, type: 2}
+  - {fileID: 11400000, guid: 22a98e5de326fa14ca354e228976462a, type: 2}
+  subStateFlag: 0

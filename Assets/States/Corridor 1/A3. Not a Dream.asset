@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A3. Not a Dream
+  m_EditorClassIdentifier: 
+  storyText: "You lie back down on the bed hoping to truly wake up. The eerie silence
+    being betrayed only by the distant mechanical whir. You lay in bed for quite some
+    time, your anxiety and heartbeat increasing by the second. You wonder whether
+    the grinding sound is getting louder or you are just hallucinating. Alas, this
+    is not a dream, and you realize that you may have just wasted some valuable time.\r\nWhat
+    do you do?\r\n\r\n1. Get out of bed and check the door."
+  nextStates:
+  - {fileID: 11400000, guid: 79cbcfd40d7d6b747a291d81087796c8, type: 2}
+  subStateFlag: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A9. Key Card
+  m_EditorClassIdentifier: 
+  storyText: "You enter the door to somewhat spacious room with some pieces of alien
+    looking equipment of different sizes laying about. There are multiple large screens
+    on a wall but none of them are on. You see another alien corpse on the floor close
+    by, this one having a key-card attached to its suit.\r\nWhat do you do?\r\n1.
+    Grab the key-card."
+  nextStates:
+  - {fileID: 11400000, guid: 89b245698d4a3f243bfbd7873dbd59f0, type: 2}
+  subStateFlag: 0

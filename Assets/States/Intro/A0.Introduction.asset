@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: A0.Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to this choose-your-own adventure game!
+
+
+    Your choices determine the path you take along the story. At each point you will
+    be given anywhere from 1 to 3 options to choose from and you have to select one
+    of them using the 1, 2 or 3 key to progress. Press "space" if there are no options
+    to advance the text.
+
+
+    Push ''q'' at any point to quit.
+
+    Press ''1'' to start.'
+  nextStates:
+  - {fileID: 11400000, guid: e2f781fd1b18bc44d8e32d6b9d786aaf, type: 2}
+  subStateFlag: 0

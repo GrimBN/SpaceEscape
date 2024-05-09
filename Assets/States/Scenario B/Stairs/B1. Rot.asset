@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B1. Rot
+  m_EditorClassIdentifier: 
+  storyText: "With some hesitation but also considerable revulsion, you try to search
+    the corpse to find something useful. Right as you touch the body, your fingers
+    poke right through and blood starts gushing out of the carcass. A putrid stench
+    fills the air as you realize that the corpse is completely rotten from the inside
+    though its outwardly appearance betrays that fact. After a diligent frisking however,
+    you are able to find a flashlight. Though alien technology, it still is just a
+    flashlight. You don't find it too troublesome to figure out how to use it.\r\n\r\nWhat
+    do you do?\r\n\r\n1. Descend the stairs."
+  nextStates:
+  - {fileID: 11400000, guid: e0daceca46dbc2643a1ee46dc31dbd6f, type: 2}
+  subStateFlag: 0

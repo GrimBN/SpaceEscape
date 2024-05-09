@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: E1.2.1. Stuck in the station
+  m_EditorClassIdentifier: 
+  storyText: You dodge off to the side just barely, resulting in the creature to leap
+    into the escape pod instead. You quickly slam the door of the pod close and launch
+    it from a terminal in the room. The shrieking cries of the creature wanes as it
+    jettisons from the station out into the vast stretches of outer space. Before
+    the pod is lost as another blip in the endless beyond, it crashes into some floating
+    debris and is destroyed, the pitch black creature lost in the all consuming vacuum.
+  nextStates:
+  - {fileID: 11400000, guid: 4cac5731858c5424a9ac6bf41b87f2b5, type: 2}
+  subStateFlag: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B7. Distract and Grab
+  m_EditorClassIdentifier: 
+  storyText: "You pick up and throw a mug that was in arms reach. The creature makes
+    a grunting sound and moves to investigate the area where you threw the mug. You
+    move in and successfully grab the key-card. You hide behind the table as the creature
+    turns around and moves, posturing itself in front of the door you came in.\r\nWhat
+    do you do?\r\n1. Lob something at the creature to try and move it out of the way.\r\n2.
+    Look around for another way out.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 5fd48503169f53b40916603785cbe922, type: 2}
+  - {fileID: 11400000, guid: 9cb8eceb7938064478b536fd0c605bee, type: 2}
+  subStateFlag: 0

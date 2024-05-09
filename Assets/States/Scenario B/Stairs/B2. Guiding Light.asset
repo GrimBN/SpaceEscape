@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B2. Guiding Light
+  m_EditorClassIdentifier: 
+  storyText: "With the help of the flashlight you can see the stairs going down two
+    stories. After going down one floor, you come to a door next to you with another
+    door down on the lower floor. With the help of you flashlight you can see a sign
+    on the latter door that reads \"Generator Room\". The door you're next to has
+    no such sign.\r\nWhat do you do?\r\n1. Enter the door.\r\n2. Go down further."
+  nextStates:
+  - {fileID: 11400000, guid: 709f7a0b8c93233448bbcf7d9fe4fd8d, type: 2}
+  - {fileID: 11400000, guid: 08dd587b189a1cc43b589801e018c6dc, type: 2}
+  subStateFlag: 0

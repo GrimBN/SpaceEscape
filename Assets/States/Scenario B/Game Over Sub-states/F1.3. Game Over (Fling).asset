@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: F1.3. Game Over (Fling)
+  m_EditorClassIdentifier: 
+  storyText: "You grab a nearby chair and fling it at the creature with all your strength.
+    Yet without even lifting one of its many limbs or any sort of visible effort it
+    is able to swat the oncoming object away. You stand there for but a second, astonished
+    at what you just saw, before you freeze up completely. Your head starts spinning,
+    you feel dizzy. You can't see anything. You've gone blind. A screeching ringing
+    starts occurring in your ear. A chill slowly creeps up your spine as you feel
+    that your legs might give way at any moment.\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: fee0b20745c2b3448b9d0d26ae990335, type: 2}
+  subStateFlag: 1

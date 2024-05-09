@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: F3. Game Over (Dumb)
+  m_EditorClassIdentifier: 
+  storyText: "In an extremely peculiar and exceptionally questionable move you decide
+    to forget that banal worry of yours about your otherworldly pursuer and jump down
+    for some good old fashioned frisking of a dead alien life form. As you are going
+    about your delightful activity, the creature breaks through the door and catches
+    up to you in blistering speed. The loud gasp from your person signifies your utter,
+    UTTER shock and disbelief at how such a thing could happen. The creature immediately
+    does some horrifyingly painful and traumatizing things to your body and leaves
+    you for dead.\r\nThe end.\r\nWhat do you do?\r\n1. Continue from the last choice
+    (This still counts as a game over though)"
+  nextStates:
+  - {fileID: 11400000, guid: d602713d991c8714ea49f6b6a5b19b0a, type: 2}
+  subStateFlag: 0

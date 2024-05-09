@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B12. Anxious Wait
+  m_EditorClassIdentifier: 
+  storyText: "You try to stay still and not make a sound, hoping for the thing to
+    leave soon. Your heart starts beating faster and faster, so much so that you start
+    worrying your heartbeat alone will give away your position, which only exacerbates
+    the problem. The creature dawdles around for a while but eventually retreats back
+    to the hole from where it came in. You wait a little while longer to ensure it
+    is gone far away before breathing a sigh of relief. You turn on the generator,
+    restoring power to the station and ponder over what to do now, though following
+    the creature into the hole is not one of possibilities you are considering.\r\nWhat
+    do you do?\r\n1. Follow the creature into the hole.\r\n2. Exit out the door and
+    go back upstairs to the corridor."
+  nextStates:
+  - {fileID: 11400000, guid: eb55786f90d72bb4590c6c1f931953eb, type: 2}
+  - {fileID: 11400000, guid: 8d30e6fd07035934187a4051cecce387, type: 2}
+  subStateFlag: 0

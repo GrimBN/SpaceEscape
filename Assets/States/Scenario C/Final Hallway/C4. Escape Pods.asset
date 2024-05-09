@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: C4. Escape Pods
+  m_EditorClassIdentifier: 
+  storyText: "Despite the no power in the station, the door opens up by itself. Perhaps
+    a dedicated power source is attached to it to prevent the room from being locked
+    in such a situation? Nevertheless, the room seems to contain the escape pods that
+    the sign mentioned. There is only one pod remaining from the looks of it. All
+    of a sudden you hear a loud thud from behind you. The creature looks to be climbing
+    out of the hole. \r\nWhat do you do?\r\n1. Climb into the pod and escape."
+  nextStates:
+  - {fileID: 11400000, guid: dcea3be8609e9ce489408a1bb9c70d15, type: 2}
+  subStateFlag: 0

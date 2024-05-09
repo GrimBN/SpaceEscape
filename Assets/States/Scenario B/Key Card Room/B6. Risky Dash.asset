@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B6. Risky Dash
+  m_EditorClassIdentifier: 
+  storyText: "You make a break for the table as quietly but also as fast as possible.
+    You are able to get behind it but the creature seems to have noticed something
+    moving and it speeds up. You move around the back of the table and are able to
+    reach out and grab the key-card, but the creature seems to be closing in on you
+    fast. The door where you entered the room is not too far. \r\nWhat do you do?\r\n1.
+    Shine your flashlight in the creature's...face? in an attempt to blind it.\r\n2.Throw
+    an object as a distraction then make another mad dash for the exit."
+  nextStates:
+  - {fileID: 11400000, guid: d61ba44b168e7a846867abd2cf076c1e, type: 2}
+  - {fileID: 11400000, guid: 5890bfb325a58ea488ea6b6cdcecc1b5, type: 2}
+  subStateFlag: 0

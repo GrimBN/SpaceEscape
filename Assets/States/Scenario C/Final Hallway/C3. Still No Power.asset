@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: C3. Still No Power
+  m_EditorClassIdentifier: 
+  storyText: "The door looks similar to the one you saw in the corridor you were in
+    soon after you woke up. It doesn't have any power to open automatically and cannot
+    be opened manually either. Probably for the best, if it is in fact the same door
+    as earlier. You would't wanna end up back at square one.\r\nWhat do you do?\r\n1.
+    Check out the other door."
+  nextStates:
+  - {fileID: 11400000, guid: bed7355cb8e9c7d48a5728792ef5b089, type: 2}
+  subStateFlag: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ff2494ef2b10b4ebaba9e88217db12, type: 3}
+  m_Name: B10. Power On B
+  m_EditorClassIdentifier: 
+  storyText: "You explore the room and find a terminal at the backside of the generator
+    that requires a key-card to access. You use your \"rightfully earned\" one which
+    works like a charm. Before you can restore the power, the creature jumps down
+    from the hole with a loud thump. It moves around slowly as if searching for something,
+    possibly you.\r\nWhat do you do?\r\n1. Turn the power on.\r\n2. Wait for the creature
+    to leave."
+  nextStates:
+  - {fileID: 11400000, guid: c06b49fddd0c9a648ae80e4b18ba974e, type: 2}
+  - {fileID: 11400000, guid: 1adb0f912904c794fb3535823e790f2d, type: 2}
+  subStateFlag: 0
